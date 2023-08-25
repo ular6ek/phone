@@ -1,0 +1,82 @@
+ /* .icons {
+  width: 100px;
+  height: 100px;
+  color: red;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  width: 324px;
+  height: 324px;
+  background-color: #fff3e9;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.container-child {
+  width: 242px;
+  height: 242px;
+  background-color: #ffd8b7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-container {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/047/526/original/smartphone-and-mobile-phone-free-png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  /* margin-top: 150px; */
+  background-position: center;
+}
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 40px;
+  gap: 5px;
+}
+.phone-container button {
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background: green;
+  color: white;
+}
+.phone-container button:hover {
+  background: red;
+}
+.dislike {
+  font-size: 15px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.like {
+  font-size: 15px;
+  border-radius: 50%;
+  background: green;
+  color: white;
+}
+.icn button {
+  background: white;
+  color: black;
+}
